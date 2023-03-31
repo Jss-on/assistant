@@ -21,7 +21,7 @@ def copied_words(prev_texts) -> str:
     return selected_text
 
 def call_openai_api(prompt) -> str:
-    openai.api_key = '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'
+    openai.api_key = 'Your OPENAI API key here'
 
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
