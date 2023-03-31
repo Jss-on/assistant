@@ -35,7 +35,7 @@ def get_summary(text) -> str:
     Returns:
         str: The summary of the text.
     """
-    openai.api_key = "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"
+    openai.api_key = "you OPENAI API key here"
 
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
